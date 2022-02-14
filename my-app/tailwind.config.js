@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Outfit', 'sans-serif'],
+        'Outfit': ['Outfit', 'sans-serif'],
+        'Inter': ['Inter', 'sans-serif'],
       },
     },
   },

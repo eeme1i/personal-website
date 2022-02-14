@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import PortfolioContent from '../components/PortfolioContent'
 import Portfolio from '../components/PortfolioContent'
 import Sidebar from '../components/Sidebar'
 import styles from '../styles/Home.module.css'
@@ -17,10 +18,10 @@ export default function Home() {
       <main className="text-white">
         <div className='pt-8 md:pt-32 md:flex w-3/4 m-auto space-x-0 md:space-x-16'>
 
-          <Sidebar />
+            <Sidebar />
 
             <div className='text-4xl w-full my-8 md:my-0 md:w-2/3'>
-                <h1>Index</h1>
+                <h1>Contact</h1>
             </div>
         </div>
       </main>
