@@ -1,19 +1,21 @@
 import Link from "next/link";
 
 function PortfolioContent() {
-    return (
-    <div className='text-4xl h-full w-full my-8 md:my-0 md:w-2/3'>
-            <div className='text-4xl w-full my-8 md:my-0 md:w-2/3 pb-8'>
-                <h1>Portfolio</h1>
-            </div>
-        <div className="h-full grid grid-cols-1 xl:grid-cols-2 gap-4 pb-8">
-            <div className="bg-blue-400 h-64"></div>
-            <div className="bg-blue-400 h-64"></div>
-            <div className="bg-blue-400 h-64"></div>
-            <div className="bg-blue-400 h-64"></div>
+  return (
+    <div className="z-1 flex min-h-full w-full sm:justify-end">
+      <div className="my-8 w-full text-4xl sm:relative md:my-0 md:w-2/3">
+        <div className="w-full pb-8 text-4xl md:my-0 md:w-2/3">
+          <h1>Portfolio</h1>
         </div>
+        <div className="grid grid-cols-1 gap-4 xl:grid-cols-2">
+          <div className="mb-4 h-64 bg-blue-400"></div>
+          <div className="mb-4 h-64 bg-blue-400"></div>
+          <div className="mb-4 h-64 bg-blue-400"></div>
+          <div className="mb-4 h-64 bg-blue-400"></div>
+        </div>
+      </div>
     </div>
-    )
+  );
 }
 
-export default PortfolioContent
+export default PortfolioContent;

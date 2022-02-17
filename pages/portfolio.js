@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className="text-white">
-        <div className=" mx-auto w-3/4 space-x-0 pt-8 md:flex md:w-5/6 md:space-x-16 md:pt-32 xl:w-3/4">
+        <div className="mx-auto h-full w-5/6 space-x-0 pt-8 md:flex md:w-5/6 md:space-x-16 md:pt-32 xl:w-3/4">
           <Sidebar />
           <PortfolioContent />
         </div>
