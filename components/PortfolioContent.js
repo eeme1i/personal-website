@@ -16,7 +16,7 @@ function PortfolioContentB() {
                 <a className="">
                   <img
                     className="h-7 w-auto"
-                    src="/instagram_simple_icon.svg"
+                    src="/Instagram_simple_icon.svg"
                   />
                 </a>
               </Link>
@@ -37,7 +37,7 @@ function PortfolioContentB() {
             </div>
           </div>
         </div>
-        <div className="text-textcolor text-lg sm:text-2xl">
+        <div className="text-lg text-white sm:text-2xl">
           <Link href="https://www.instagram.com/p/CZmcNyZsuqG/">
             <a target="_blank" rel="noreferrer" className="h-full w-full">
               <div className="mb-8 h-96 w-full rounded-3xl bg-[url('/01.jpg')] bg-cover bg-center">
