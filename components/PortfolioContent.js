@@ -3,7 +3,7 @@ import Link from "next/link";
 function PortfolioContentB() {
   return (
     <div className="z-1 flex min-h-full w-full justify-end pb-8">
-      <div className="bg-itembg relative my-8 w-full rounded-3xl p-8 text-4xl shadow-xl md:my-0 md:w-2/3">
+      <div className="bg-itembg relative my-8 w-full rounded-3xl p-8 text-4xl shadow-md md:my-0 md:w-2/3">
         <div className="flex w-full items-center justify-between pb-8 text-4xl md:my-0">
           <h1>Portfolio</h1>
           <div className="flex items-center space-x-2">

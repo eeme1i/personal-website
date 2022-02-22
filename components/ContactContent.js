@@ -4,7 +4,7 @@ import Image from "next/image";
 function ContactContent() {
   return (
     <div className="text-font flex min-h-full w-full sm:justify-end">
-      <div className=" bg-itembg my-8 w-full rounded-3xl p-8 text-4xl shadow-xl sm:relative md:my-0 md:w-2/3">
+      <div className=" bg-itembg my-8 w-full rounded-3xl p-8 text-4xl shadow-md sm:relative md:my-0 md:w-2/3">
         <div className="w-full pb-4 text-4xl md:my-0 md:w-2/3">
           <h1>Contact</h1>
         </div>
@@ -45,7 +45,7 @@ function ContactContent() {
           </div>
           <div>
             <div className="mb-2">
-              <Link href="https://insagram.com/eemelihq">
+              <Link href="https://instagram.com/eemelihq">
                 <a
                   target="_blank"
                   rel="noreferrer"
