@@ -51,8 +51,8 @@ function IndexContent() {
             .
           </p>
           <p className="pb-4">
-            If you'd like to get in touch you can find ways to reach out to me
-            at{" "}
+            If you&apos;d like to get in touch you can find ways to reach out to
+            me at{" "}
             <Link href="/contact">
               <a className="font-bold hover:underline">contact</a>
             </Link>
