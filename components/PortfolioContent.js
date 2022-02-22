@@ -8,7 +8,11 @@ function PortfolioContentB() {
           <h1>Portfolio</h1>
           <div className="flex items-center space-x-2">
             <div className="hover:bg-highlight rounded-lg p-2 transition-all duration-150 ease-linear">
-              <Link href="https://instagram.com/eemelihq">
+              <Link
+                target="_blank"
+                rel="noreferrer"
+                href="https://instagram.com/eemelihq"
+              >
                 <a className="">
                   <img
                     className="h-7 w-auto"
@@ -18,7 +22,11 @@ function PortfolioContentB() {
               </Link>
             </div>
             <div className="hover:bg-highlight items-center rounded-lg p-2 transition-all duration-150 ease-linear">
-              <Link href="https://twitter.com/hieemeli">
+              <Link
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/hieemeli"
+              >
                 <a className="">
                   <img
                     className="h-6 w-auto"
@@ -31,7 +39,7 @@ function PortfolioContentB() {
         </div>
         <div className="text-textcolor text-lg sm:text-2xl">
           <Link href="https://www.instagram.com/p/CZmcNyZsuqG/">
-            <a className="h-full w-full">
+            <a target="_blank" rel="noreferrer" className="h-full w-full">
               <div className="mb-8 h-96 w-full rounded-3xl bg-[url('/01.jpg')] bg-cover bg-center">
                 <div className="bg-imagehover/[0.6] h-full w-full rounded-3xl opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
                   <div className="flex justify-between p-8">
@@ -43,7 +51,7 @@ function PortfolioContentB() {
             </a>
           </Link>
           <Link href="https://www.instagram.com/p/CZWjjAJNbw4/">
-            <a className="h-full w-full">
+            <a target="_blank" rel="noreferrer" className="h-full w-full">
               <div className="mb-8 h-96 rounded-3xl bg-[url('/02.jpg')] bg-cover bg-center">
                 <div className="bg-imagehover/[0.6] h-full w-full rounded-3xl opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
                   <div className="flex justify-between p-8">
@@ -55,7 +63,7 @@ function PortfolioContentB() {
             </a>
           </Link>
           <Link href="https://www.instagram.com/p/CZWjjAJNbw4/">
-            <a className="h-full w-full">
+            <a target="_blank" rel="noreferrer" className="h-full w-full">
               <div className="h-96 rounded-3xl bg-[url('/03.jpg')] bg-cover bg-center">
                 <div className="bg-imagehover/[0.6] h-full w-full rounded-3xl opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
                   <div className="flex justify-between p-8">

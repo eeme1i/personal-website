@@ -10,10 +10,11 @@ function IndexContent() {
         </div>
         <div className="h-full w-full text-xl font-normal">
           <p className="pb-4">
-            Hello! I'm Eemeli, a second year student at{" "}
+            Hello! I&apos;m Eemeli, a second year student at{" "}
             <a
               href="https://www.pori.fi/kasvatus-ja-koulutus/lukio/porin-lukio"
               target="_blank"
+              rel="noreferrer"
               className="cursor-pointer font-bold hover:underline"
             >
               Porin Lukio
@@ -33,6 +34,7 @@ function IndexContent() {
             <a
               href="https://MEK-JS.vercel.app"
               target="_blank"
+              rel="noreferrer"
               className="cursor-pointer font-bold hover:underline"
             >
               MEK-JS{" "}
@@ -41,6 +43,7 @@ function IndexContent() {
             <a
               href="https://porinlukio.fi"
               target="_blank"
+              rel="noreferrer"
               className="cursor-pointer font-bold hover:underline"
             >
               porinlukio.fi
