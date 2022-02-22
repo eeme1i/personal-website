@@ -62,7 +62,7 @@ function PortfolioContentB() {
               </div>
             </a>
           </Link>
-          <Link href="https://www.instagram.com/p/CZWjjAJNbw4/">
+          <Link href="https://www.instagram.com/p/CYrOamxMLKq/">
             <a target="_blank" rel="noreferrer" className="h-full w-full">
               <div className="h-96 rounded-3xl bg-[url('/03.jpg')] bg-cover bg-center">
                 <div className="bg-imagehover/[0.6] h-full w-full rounded-3xl opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
