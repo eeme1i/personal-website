@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function ContactContent() {
   return (
-    <div className="z-1 flex min-h-full w-full sm:justify-end">
-      <div className="my-8 w-full text-4xl sm:relative md:my-0 md:w-2/3">
+    <div className="flex min-h-full w-full sm:justify-end">
+      <div className="bg-Greener my-8 w-full rounded-3xl p-8 text-4xl sm:relative md:my-0 md:w-2/3">
         <div className="w-full pb-8 text-4xl md:my-0 md:w-2/3">
           <h1>Contact</h1>
         </div>
