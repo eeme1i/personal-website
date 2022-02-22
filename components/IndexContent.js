@@ -37,9 +37,9 @@ function IndexContent() {
               rel="noreferrer"
               className="cursor-pointer font-bold hover:underline"
             >
-              MEK-JS{" "}
+              MEK-JS
             </a>
-            &{" "}
+            ,{" "}
             <a
               href="https://porinlukio.fi"
               target="_blank"
@@ -47,14 +47,13 @@ function IndexContent() {
               className="cursor-pointer font-bold hover:underline"
             >
               porinlukio.fi
-            </a>
-            .
+            </a>{" "}
+            and this very site!
           </p>
           <p className="pb-4">
-            If you&apos;d like to get in touch you can find ways to reach out to
-            me at{" "}
+            If you&apos;d like to get in touch you can find ways to contact me{" "}
             <Link href="/contact">
-              <a className="font-bold hover:underline">contact</a>
+              <a className="font-bold hover:underline">here</a>
             </Link>
             !
           </p>
