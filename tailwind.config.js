@@ -10,11 +10,12 @@ module.exports = {
         Inter: ["Inter", "sans-serif"],
       },
       colors: {
-        Emerald: "#014751",
-        Firefly: "#0F2830",
-        Zircon: "#F8FBFF",
-        Greener: "#00D37F",
-        Mint: "#AFF8C8",
+        font: "#16215b", //main fonts
+        background: "#CFE2ED",
+        textcolor: "#E0EAF8", //highlight font in portfolio
+        itembg: "#E0EAF8",
+        highlight: "#C1D7F9", //hover item
+        imagehover: "#14163A",
         BananaYellow: "#FFEEB4",
         Lilac: "#D2C4FB",
         SeafoamLight: "#D8EBE9",
@@ -24,3 +25,13 @@ module.exports = {
   },
   plugins: [],
 };
+
+//        font: "#16215b", //main fonts
+//        background: "#787CA9",
+//        textcolor: "#E0EAF8", //highlight font in portfolio
+//        itembg: "#E0EAF8",
+//        highlight: "#A3A9F5", //hover item
+//        BananaYellow: "#FFEEB4",
+//        Lilac: "#D2C4FB",
+//        SeafoamLight: "#D8EBE9",
+//        SeafoamDark: "#004A43",
