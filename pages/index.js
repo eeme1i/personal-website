@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className="text-font font-semibold">
-        <div className="mx-auto h-full w-5/6 space-x-0 pt-8 md:flex md:w-5/6 md:space-x-16 md:pt-32 xl:w-2/3">
+        <div className="mx-auto h-full w-5/6 space-x-0 pt-8 md:flex md:w-5/6 md:space-x-16 md:pt-32 xl:w-7/12">
           <Sidebar />
           <IndexContent />
         </div>
