@@ -1,5 +1,9 @@
 import Link from "next/link";
 
+export const getStaticProps = async () => {
+  const res = await fetch();
+};
+
 function PortfolioContentB() {
   return (
     <div className="z-1 flex min-h-full w-full justify-end pb-8">

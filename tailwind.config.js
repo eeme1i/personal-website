@@ -12,10 +12,10 @@ module.exports = {
       colors: {
         font: "#e4e4e7", //main fonts
         background: "#171717",
-        textcolor: "#E0EAF8", //highlight font in portfolio
+        textcolor: "#e4e4e7", //highlight font in portfolio
         itembg: "#27272a",
         highlight: "#404040", //hover item
-        imagehover: "#264150",
+        imagehover: "#27272a",
         BananaYellow: "#FFEEB4",
         Lilac: "#D2C4FB",
         SeafoamLight: "#D8EBE9",
