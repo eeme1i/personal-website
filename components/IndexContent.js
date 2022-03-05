@@ -4,7 +4,7 @@ import Image from "next/image";
 function IndexContent() {
   return (
     <div className="flex min-h-full w-full sm:justify-end">
-      <div className="bg-itembg my-8 w-full rounded-3xl p-8 text-4xl shadow-md sm:relative md:my-0 md:w-2/3">
+      <div className="my-8 w-full rounded-3xl bg-itembg p-8 text-4xl shadow-md sm:relative md:my-0 md:w-2/3">
         <div className="w-full pb-4 text-4xl md:my-0 md:w-2/3">
           <h1>Hi there!</h1>
         </div>

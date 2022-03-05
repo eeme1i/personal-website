@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className="h-full min-h-screen w-full bg-background font-Outfit">
+    <div className="h-full min-h-screen w-full bg-background font-Inter tracking-tight">
       <Head>
         <title>Portfolio</title>
         <meta name="description" content="portfolio :)" />

@@ -7,7 +7,7 @@ import IndexContent from "../components/IndexContent";
 
 export default function Home() {
   return (
-    <div className="h-full min-h-screen w-full bg-background font-Outfit">
+    <div className="h-full min-h-screen w-full bg-background font-Inter tracking-tight">
       <Head>
         <title>Index</title>
         <meta name="description" content="hi :)" />

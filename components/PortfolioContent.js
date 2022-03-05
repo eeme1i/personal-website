@@ -7,11 +7,11 @@ export const getStaticProps = async () => {
 function PortfolioContentB() {
   return (
     <div className="z-1 flex min-h-full w-full justify-end pb-8">
-      <div className="bg-itembg relative my-8 w-full rounded-3xl p-8 text-4xl shadow-md md:my-0 md:w-2/3">
+      <div className="relative my-8 w-full rounded-3xl bg-itembg p-8 text-4xl shadow-md md:my-0 md:w-2/3">
         <div className="flex w-full items-center justify-between pb-8 text-4xl md:my-0">
           <h1>Portfolio</h1>
           <div className="flex items-center space-x-2">
-            <div className="hover:bg-highlight rounded-lg p-2 transition-all duration-150 ease-linear">
+            <div className="rounded-lg p-2 transition-all duration-150 ease-linear hover:bg-highlight">
               <Link
                 target="_blank"
                 rel="noreferrer"
@@ -25,7 +25,7 @@ function PortfolioContentB() {
                 </a>
               </Link>
             </div>
-            <div className="hover:bg-highlight items-center rounded-lg p-2 transition-all duration-150 ease-linear">
+            <div className="items-center rounded-lg p-2 transition-all duration-150 ease-linear hover:bg-highlight">
               <Link
                 target="_blank"
                 rel="noreferrer"
@@ -45,7 +45,7 @@ function PortfolioContentB() {
           <Link href="https://www.instagram.com/p/CaSW7AlM6sJ/">
             <a target="_blank" rel="noreferrer" className="h-full w-full">
               <div className="mb-8 h-96 w-full rounded-3xl bg-[url('/portfolio/lownoise.jpg')] bg-cover bg-center">
-                <div className="bg-imagehover/[0.6] h-full w-full rounded-3xl opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
+                <div className="h-full w-full rounded-3xl bg-imagehover/[0.6] opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
                   <div className="flex justify-between p-8">
                     <p className="">low noise</p>
                     <p>2022</p>
@@ -57,7 +57,7 @@ function PortfolioContentB() {
           <Link href="https://www.instagram.com/p/CZmcNyZsuqG/">
             <a target="_blank" rel="noreferrer" className="h-full w-full">
               <div className="mb-8 h-96 w-full rounded-3xl bg-[url('/portfolio/01.jpg')] bg-cover bg-center">
-                <div className="bg-imagehover/[0.6] h-full w-full rounded-3xl opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
+                <div className="h-full w-full rounded-3xl bg-imagehover/[0.6] opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
                   <div className="flex justify-between p-8">
                     <p className="">01.png</p>
                     <p>2022</p>
@@ -69,7 +69,7 @@ function PortfolioContentB() {
           <Link href="https://www.instagram.com/p/CZWjjAJNbw4/">
             <a target="_blank" rel="noreferrer" className="h-full w-full">
               <div className="mb-8 h-96 rounded-3xl bg-[url('/portfolio/02.jpg')] bg-cover bg-center">
-                <div className="bg-imagehover/[0.6] h-full w-full rounded-3xl opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
+                <div className="h-full w-full rounded-3xl bg-imagehover/[0.6] opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
                   <div className="flex justify-between p-8">
                     <p className="">s-4-pro.png</p>
                     <p>2022</p>
@@ -81,7 +81,7 @@ function PortfolioContentB() {
           <Link href="https://www.instagram.com/p/CYrOamxMLKq/">
             <a target="_blank" rel="noreferrer" className="h-full w-full">
               <div className="h-96 rounded-3xl bg-[url('/portfolio/03.jpg')] bg-cover bg-center">
-                <div className="bg-imagehover/[0.6] h-full w-full rounded-3xl opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
+                <div className="h-full w-full rounded-3xl bg-imagehover/[0.6] opacity-0 transition-all duration-150 ease-linear hover:opacity-100">
                   <div className="flex justify-between p-8">
                     <p className="">Vendetta</p>
                     <p>2022</p>
@@ -90,7 +90,7 @@ function PortfolioContentB() {
               </div>
             </a>
           </Link>
-          <div className="text-font flex w-full justify-center pt-6 text-sm">
+          <div className="flex w-full justify-center pt-6 text-sm text-font">
             <p>more coming soon :)</p>
           </div>
         </div>
